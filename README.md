@@ -1,2 +1,2 @@
 # League-LP-Rank-tracker
-This is a discord bot coded in python that automatically updates you of you or your friends LP gains/losses
+This is a discord bot coded in python that uses the discord and riotwatcher library to access both the discord and riot API to automatically update a server of someone's LP gain/loss. YOu will need to install both librays as well as keep the code running on your computer or have a server host it. You will also need to create a Riot and discord API key by using their respective developer portals. Once you have then you can paste them labeled in the code. YOu can feel free to change the messages as wellCancel changes as the bot commands. YOu can figure it out pretty easily by reading the comments.
