@@ -108,7 +108,7 @@ async def on_ready():
             sentOnce = True
 
 @bot.command() #this initalizes the comand to check a players stats 
-async def name(ctx): #name is what follows the start char i[[n this case !name would couse this function to activate (name can be changed)
+async def name(ctx): #name is what follows the start char in this case !name would couse this function to activate (name can be changed)
     await ctx.reply(command(RAPI, 'na1', 'leaugeInGameUsername', 'IRLname')) #na1 is the region code you will have to look up the others if you want to change it
 
 
